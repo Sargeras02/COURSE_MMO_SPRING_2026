@@ -1,0 +1,3338 @@
+{
+  "login": "Сергей (558b4886-004f-4bc0-81be-d8dbfcaa3310)",
+  "graphState": [
+    {
+      "id": "6f536b01-980a-4965-9bc0-2b7918370e76",
+      "type": "vertex",
+      "attributes": {
+        "Преподаватель": {
+          "type": "string",
+          "system": false,
+          "value": "Гапанюк Ю.Е."
+        },
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "ММО в АСОИУ"
+        }
+      },
+      "edges": [
+        "6807dae3-5b33-4c79-b710-33670f3ddeb2",
+        "6573d820-4453-4c51-88ce-7fa8cbded84f"
+      ],
+      "children": [],
+      "parents": [
+        "e26437f0-3f16-4db8-bd24-ee45b108d07a"
+      ]
+    },
+    {
+      "id": "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+      "type": "vertex",
+      "attributes": {
+        "Преподаватель": {
+          "type": "string",
+          "system": false,
+          "value": "Виноградова М.В."
+        },
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "ПБД"
+        }
+      },
+      "edges": [
+        "b052198e-4d1f-4fe8-9f0e-0cef54151435",
+        "641c8810-977f-49ce-bd3a-000c90a32b08",
+        "2a691e29-a4c8-442f-af9f-a4aa8e135eae"
+      ],
+      "children": [],
+      "parents": [
+        "e26437f0-3f16-4db8-bd24-ee45b108d07a"
+      ]
+    },
+    {
+      "id": "faaf337e-29c4-48ff-a7be-f777833a858b",
+      "type": "vertex",
+      "attributes": {
+        "Преподаватель": {
+          "type": "string",
+          "system": false,
+          "value": "Строганов В.Ю."
+        },
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "МН АСОИУ"
+        }
+      },
+      "edges": [
+        "a828ded7-ab60-4fe9-85c7-9a54ee80a460"
+      ],
+      "children": [],
+      "parents": [
+        "e26437f0-3f16-4db8-bd24-ee45b108d07a"
+      ]
+    },
+    {
+      "id": "fde81e7d-490b-42be-ba85-76a88bc15d32",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "КР ПБД"
+        }
+      },
+      "edges": [
+        "b052198e-4d1f-4fe8-9f0e-0cef54151435"
+      ],
+      "children": [],
+      "parents": [
+        "d350aaf1-ce1e-4b2e-b224-4b1d90084234"
+      ]
+    },
+    {
+      "id": "fde3f6f0-d46f-4125-b575-c9335427f56b",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "ДЗ ПБД"
+        }
+      },
+      "edges": [
+        "641c8810-977f-49ce-bd3a-000c90a32b08"
+      ],
+      "children": [],
+      "parents": [
+        "d350aaf1-ce1e-4b2e-b224-4b1d90084234"
+      ]
+    },
+    {
+      "id": "bff0a4bb-844f-4e53-8918-ea0c1c25cd73",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "ЛР ПБД"
+        }
+      },
+      "edges": [
+        "2a691e29-a4c8-442f-af9f-a4aa8e135eae"
+      ],
+      "children": [],
+      "parents": [
+        "d350aaf1-ce1e-4b2e-b224-4b1d90084234"
+      ]
+    },
+    {
+      "id": "529dcbdd-cfea-463d-9cdd-41401204828e",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Экзамен ММО"
+        }
+      },
+      "edges": [
+        "6807dae3-5b33-4c79-b710-33670f3ddeb2",
+        "f69748e8-5f06-4fe9-a626-8879f82f1cf1"
+      ],
+      "children": [],
+      "parents": [
+        "d350aaf1-ce1e-4b2e-b224-4b1d90084234"
+      ]
+    },
+    {
+      "id": "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Статья ММО"
+        }
+      },
+      "edges": [
+        "6573d820-4453-4c51-88ce-7fa8cbded84f",
+        "f69748e8-5f06-4fe9-a626-8879f82f1cf1"
+      ],
+      "children": [],
+      "parents": [
+        "d350aaf1-ce1e-4b2e-b224-4b1d90084234"
+      ]
+    },
+    {
+      "id": "6807dae3-5b33-4c79-b710-33670f3ddeb2",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Включает"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6f536b01-980a-4965-9bc0-2b7918370e76",
+      "target": "529dcbdd-cfea-463d-9cdd-41401204828e",
+      "directed": true
+    },
+    {
+      "id": "6573d820-4453-4c51-88ce-7fa8cbded84f",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Включает"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "6f536b01-980a-4965-9bc0-2b7918370e76",
+      "target": "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf",
+      "directed": true
+    },
+    {
+      "id": "b052198e-4d1f-4fe8-9f0e-0cef54151435",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Включает"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+      "target": "fde81e7d-490b-42be-ba85-76a88bc15d32",
+      "directed": true
+    },
+    {
+      "id": "641c8810-977f-49ce-bd3a-000c90a32b08",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Включает"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+      "target": "fde3f6f0-d46f-4125-b575-c9335427f56b",
+      "directed": true
+    },
+    {
+      "id": "2a691e29-a4c8-442f-af9f-a4aa8e135eae",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Включает"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+      "target": "bff0a4bb-844f-4e53-8918-ea0c1c25cd73",
+      "directed": false
+    },
+    {
+      "id": "ae1ef8b2-5df0-4f39-8e51-d4648a9bf66e",
+      "type": "vertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Экзамен МН"
+        }
+      },
+      "edges": [
+        "a828ded7-ab60-4fe9-85c7-9a54ee80a460"
+      ],
+      "children": [],
+      "parents": [
+        "d350aaf1-ce1e-4b2e-b224-4b1d90084234"
+      ]
+    },
+    {
+      "id": "a828ded7-ab60-4fe9-85c7-9a54ee80a460",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Включает"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "faaf337e-29c4-48ff-a7be-f777833a858b",
+      "target": "ae1ef8b2-5df0-4f39-8e51-d4648a9bf66e",
+      "directed": true
+    },
+    {
+      "id": "d350aaf1-ce1e-4b2e-b224-4b1d90084234",
+      "type": "metavertex",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Контрольное Мероприятие"
+        }
+      },
+      "edges": [
+        "d09b74c4-b0f4-4f22-85e4-82b300083182"
+      ],
+      "children": [
+        "fde81e7d-490b-42be-ba85-76a88bc15d32",
+        "fde3f6f0-d46f-4125-b575-c9335427f56b",
+        "bff0a4bb-844f-4e53-8918-ea0c1c25cd73",
+        "529dcbdd-cfea-463d-9cdd-41401204828e",
+        "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf",
+        "ae1ef8b2-5df0-4f39-8e51-d4648a9bf66e"
+      ],
+      "parents": []
+    },
+    {
+      "id": "e26437f0-3f16-4db8-bd24-ee45b108d07a",
+      "type": "metavertex",
+      "attributes": {
+        "Преподаватель": {
+          "type": "string",
+          "system": false,
+          "value": ""
+        },
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Дисциплина"
+        }
+      },
+      "edges": [
+        "d09b74c4-b0f4-4f22-85e4-82b300083182"
+      ],
+      "children": [
+        "6f536b01-980a-4965-9bc0-2b7918370e76",
+        "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+        "faaf337e-29c4-48ff-a7be-f777833a858b"
+      ],
+      "parents": []
+    },
+    {
+      "id": "f69748e8-5f06-4fe9-a626-8879f82f1cf1",
+      "type": "edge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Допуск"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf",
+      "target": "529dcbdd-cfea-463d-9cdd-41401204828e",
+      "directed": true
+    },
+    {
+      "id": "d09b74c4-b0f4-4f22-85e4-82b300083182",
+      "type": "metaedge",
+      "attributes": {
+        "name": {
+          "type": "string",
+          "system": false,
+          "value": "Оканчивается_Контролем"
+        }
+      },
+      "edges": [],
+      "children": [],
+      "parents": [],
+      "source": "e26437f0-3f16-4db8-bd24-ee45b108d07a",
+      "target": "d350aaf1-ce1e-4b2e-b224-4b1d90084234",
+      "directed": true
+    }
+  ],
+  "actionLog": [
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "login",
+        "label": "Имя пользователя"
+      },
+      "timestamp": 1781358432971
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "login",
+        "label": "Имя пользователя"
+      },
+      "timestamp": 1781358453344
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "login",
+        "label": "Имя пользователя"
+      },
+      "timestamp": 1781358456903
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "login",
+        "label": "Имя пользователя"
+      },
+      "timestamp": 1781358464953
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "login",
+        "label": "Имя пользователя"
+      },
+      "timestamp": 1781358489638
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "login",
+        "label": "Имя пользователя"
+      },
+      "timestamp": 1781358559409
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "login",
+        "label": "Имя пользователя"
+      },
+      "timestamp": 1781360559238
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360571955
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360573565
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "ММО в АСОИУ"
+      },
+      "timestamp": 1781360576964
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781360578315
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781360580286
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781360586989
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781360588799
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781360589561
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781360592179
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781360593087
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781360593744
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781360594332
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781360626925
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781360651943
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781360672955
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Название",
+        "value": "Преподаватель"
+      },
+      "timestamp": 1781360675643
+    },
+    {
+      "name": "add-attribute",
+      "payload": {
+        "label": "Преподаватель",
+        "type": "string"
+      },
+      "timestamp": 1781360678500
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": ""
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360678514
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781360679754
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781360682688
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": "Гапан"
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360686519
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": "Гапанюк "
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360687752
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": "Гапанюк ЮЕ"
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360689603
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": "Гапанюк Ю.Е."
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360691442
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "6f536b01-980a-4965-9bc0-2b7918370e76",
+        "type": "vertex",
+        "attributes": {
+          "Преподаватель": {
+            "type": "string",
+            "system": false,
+            "value": "Гапанюк Ю.Е."
+          },
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "ММО в АСОИУ"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781360696450
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360698893
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "ПБД"
+      },
+      "timestamp": 1781360702884
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": "Виноградова "
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360708568
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": "Виноградова М.В."
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360710651
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360753356
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360755121
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "ПБД"
+      },
+      "timestamp": 1781360758374
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781360760273
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Название",
+        "value": "Преподаватель"
+      },
+      "timestamp": 1781360763561
+    },
+    {
+      "name": "add-attribute",
+      "payload": {
+        "label": "Преподаватель",
+        "type": "string"
+      },
+      "timestamp": 1781360764683
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": ""
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360764691
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": "Виноградова М.В."
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360768729
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+        "type": "vertex",
+        "attributes": {
+          "Преподаватель": {
+            "type": "string",
+            "system": false,
+            "value": "Виноградова М.В."
+          },
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "ПБД"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781360771853
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360773001
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360774316
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "МН А"
+      },
+      "timestamp": 1781360778204
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "МН АСОИУ"
+      },
+      "timestamp": 1781360779362
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781360780426
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Название",
+        "value": "Преподаватель"
+      },
+      "timestamp": 1781360782631
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Название",
+        "value": ""
+      },
+      "timestamp": 1781360785542
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360786122
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Дисципльна"
+      },
+      "timestamp": 1781360788769
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Дисциплна"
+      },
+      "timestamp": 1781360791368
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Дисциплина"
+      },
+      "timestamp": 1781360792154
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781360793187
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Название",
+        "value": "П"
+      },
+      "timestamp": 1781360793674
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Название",
+        "value": "Пр"
+      },
+      "timestamp": 1781360794298
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Название",
+        "value": "Преподаватель"
+      },
+      "timestamp": 1781360796568
+    },
+    {
+      "name": "add-attribute",
+      "payload": {
+        "label": "Преподаватель",
+        "type": "string"
+      },
+      "timestamp": 1781360799275
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": ""
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360799286
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "e6dfb283-688d-49be-afea-279bfb4c631d",
+        "type": "vertex",
+        "attributes": {
+          "Преподаватель": {
+            "type": "string",
+            "system": false,
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Дисциплина"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781360801684
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "6f536b01-980a-4965-9bc0-2b7918370e76"
+      },
+      "timestamp": 1781360802839
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "6f536b01-980a-4965-9bc0-2b7918370e76"
+      },
+      "timestamp": 1781360802839
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": []
+        }
+      },
+      "timestamp": 1781360805445
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "e6dfb283-688d-49be-afea-279bfb4c631d"
+      },
+      "timestamp": 1781360816713
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "e6dfb283-688d-49be-afea-279bfb4c631d"
+      },
+      "timestamp": 1781360816713
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781360824396
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": null
+      },
+      "timestamp": 1781360834257
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "e6dfb283-688d-49be-afea-279bfb4c631d"
+      },
+      "timestamp": 1781360835091
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "e6dfb283-688d-49be-afea-279bfb4c631d"
+      },
+      "timestamp": 1781360835091
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "6f536b01-980a-4965-9bc0-2b7918370e76"
+      },
+      "timestamp": 1781360835748
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "6f536b01-980a-4965-9bc0-2b7918370e76"
+      },
+      "timestamp": 1781360835748
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "e6dfb283-688d-49be-afea-279bfb4c631d"
+      },
+      "timestamp": 1781360836839
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "e6dfb283-688d-49be-afea-279bfb4c631d"
+      },
+      "timestamp": 1781360836839
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "b5b847b2-454a-48b3-9da2-76c1705de7d6"
+      },
+      "timestamp": 1781360837888
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "b5b847b2-454a-48b3-9da2-76c1705de7d6"
+      },
+      "timestamp": 1781360837888
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "6f536b01-980a-4965-9bc0-2b7918370e76"
+      },
+      "timestamp": 1781360838975
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "6f536b01-980a-4965-9bc0-2b7918370e76"
+      },
+      "timestamp": 1781360838976
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "e6dfb283-688d-49be-afea-279bfb4c631d"
+      },
+      "timestamp": 1781360840304
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "e6dfb283-688d-49be-afea-279bfb4c631d"
+      },
+      "timestamp": 1781360840304
+    },
+    {
+      "name": "delete-element",
+      "payload": {
+        "id": "e6dfb283-688d-49be-afea-279bfb4c631d"
+      },
+      "timestamp": 1781360858095
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360859346
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360859826
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "МН АС"
+      },
+      "timestamp": 1781360863373
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "МН АСОИУ"
+      },
+      "timestamp": 1781360864240
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781360865744
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Название",
+        "value": "Преподаватель"
+      },
+      "timestamp": 1781360868390
+    },
+    {
+      "name": "add-attribute",
+      "payload": {
+        "label": "Преподаватель",
+        "type": "string"
+      },
+      "timestamp": 1781360869496
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": ""
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360869502
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": "Строганв"
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360872228
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": "Строганов"
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360873784
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": "Строганов В."
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360874963
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": "Строганов В.Ю."
+            }
+          ]
+        }
+      },
+      "timestamp": 1781360876051
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "faaf337e-29c4-48ff-a7be-f777833a858b",
+        "type": "vertex",
+        "attributes": {
+          "Преподаватель": {
+            "type": "string",
+            "system": false,
+            "value": "Строганов В.Ю."
+          },
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "МН АСОИУ"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781360878164
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": null
+      },
+      "timestamp": 1781360878929
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "6f536b01-980a-4965-9bc0-2b7918370e76"
+      },
+      "timestamp": 1781360881366
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "6f536b01-980a-4965-9bc0-2b7918370e76"
+      },
+      "timestamp": 1781360881367
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "faaf337e-29c4-48ff-a7be-f777833a858b"
+      },
+      "timestamp": 1781360882201
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "faaf337e-29c4-48ff-a7be-f777833a858b"
+      },
+      "timestamp": 1781360882201
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "b5b847b2-454a-48b3-9da2-76c1705de7d6"
+      },
+      "timestamp": 1781360882822
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "b5b847b2-454a-48b3-9da2-76c1705de7d6"
+      },
+      "timestamp": 1781360882823
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "faaf337e-29c4-48ff-a7be-f777833a858b"
+      },
+      "timestamp": 1781360883889
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "faaf337e-29c4-48ff-a7be-f777833a858b"
+      },
+      "timestamp": 1781360883890
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "6f536b01-980a-4965-9bc0-2b7918370e76"
+      },
+      "timestamp": 1781360884614
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "6f536b01-980a-4965-9bc0-2b7918370e76"
+      },
+      "timestamp": 1781360884614
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360886803
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360887723
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "КР"
+      },
+      "timestamp": 1781360890954
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "КР ПБД"
+      },
+      "timestamp": 1781360892619
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "fde81e7d-490b-42be-ba85-76a88bc15d32",
+        "type": "vertex",
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "КР ПБД"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781360897810
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360900189
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360900724
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "ДЗ "
+      },
+      "timestamp": 1781360902383
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "ДЗ ПБД"
+      },
+      "timestamp": 1781360903417
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "fde3f6f0-d46f-4125-b575-c9335427f56b",
+        "type": "vertex",
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "ДЗ ПБД"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781360908206
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360909049
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360909786
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360910157
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "ЛР ПБД"
+      },
+      "timestamp": 1781360918101
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "bff0a4bb-844f-4e53-8918-ea0c1c25cd73",
+        "type": "vertex",
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "ЛР ПБД"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781360923926
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360924903
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360925411
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Э"
+      },
+      "timestamp": 1781360927667
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Экзамен ММО"
+      },
+      "timestamp": 1781360930221
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "529dcbdd-cfea-463d-9cdd-41401204828e",
+        "type": "vertex",
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Экзамен ММО"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781360932859
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360933879
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "ММО"
+      },
+      "timestamp": 1781360934635
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Статья ММО"
+      },
+      "timestamp": 1781360937417
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360940494
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360941001
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "С"
+      },
+      "timestamp": 1781360942212
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Статья ММО"
+      },
+      "timestamp": 1781360943713
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf",
+        "type": "vertex",
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Статья ММО"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781360946725
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360950253
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781360951008
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Тип",
+        "value": "edge"
+      },
+      "timestamp": 1781360952196
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360953059
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Включает"
+      },
+      "timestamp": 1781360955579
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "source",
+        "label": "Источник"
+      },
+      "timestamp": 1781360960476
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "source": "6f536b01-980a-4965-9bc0-2b7918370e76"
+        }
+      },
+      "timestamp": 1781360963895
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "target",
+        "label": "Цель"
+      },
+      "timestamp": 1781360964577
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "target": "529dcbdd-cfea-463d-9cdd-41401204828e"
+        }
+      },
+      "timestamp": 1781360967772
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Направлен"
+      },
+      "timestamp": 1781360969188
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Направлен",
+        "value": true
+      },
+      "timestamp": 1781360969188
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "directed": true
+        }
+      },
+      "timestamp": 1781360969188
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "6807dae3-5b33-4c79-b710-33670f3ddeb2",
+        "type": "edge",
+        "source": "6f536b01-980a-4965-9bc0-2b7918370e76",
+        "target": "529dcbdd-cfea-463d-9cdd-41401204828e",
+        "directed": true,
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Включает"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781360973687
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360975564
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360976182
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Включает"
+      },
+      "timestamp": 1781360976468
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781360977007
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Тип",
+        "value": "edge"
+      },
+      "timestamp": 1781360977828
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "source",
+        "label": "Источник"
+      },
+      "timestamp": 1781360978541
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "target",
+        "label": "Цель"
+      },
+      "timestamp": 1781360979776
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "source": "6f536b01-980a-4965-9bc0-2b7918370e76"
+        }
+      },
+      "timestamp": 1781360979456
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "target": "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf"
+        }
+      },
+      "timestamp": 1781360981666
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Направлен"
+      },
+      "timestamp": 1781360983580
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Направлен",
+        "value": true
+      },
+      "timestamp": 1781360983580
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "directed": true
+        }
+      },
+      "timestamp": 1781360983581
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "6573d820-4453-4c51-88ce-7fa8cbded84f",
+        "type": "edge",
+        "source": "6f536b01-980a-4965-9bc0-2b7918370e76",
+        "target": "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf",
+        "directed": true,
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Включает"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781360984962
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360989819
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360990307
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Включает"
+      },
+      "timestamp": 1781360991053
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781360992241
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "source",
+        "label": "Источник"
+      },
+      "timestamp": 1781360993419
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Тип",
+        "value": "edge"
+      },
+      "timestamp": 1781360992998
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "target",
+        "label": "Цель"
+      },
+      "timestamp": 1781360994880
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "source": "b5b847b2-454a-48b3-9da2-76c1705de7d6"
+        }
+      },
+      "timestamp": 1781360994388
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "target": "fde81e7d-490b-42be-ba85-76a88bc15d32"
+        }
+      },
+      "timestamp": 1781360996009
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "b052198e-4d1f-4fe8-9f0e-0cef54151435",
+        "type": "edge",
+        "source": "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+        "target": "fde81e7d-490b-42be-ba85-76a88bc15d32",
+        "directed": false,
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Включает"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781360997569
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781360998397
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781360999126
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Включает"
+      },
+      "timestamp": 1781360999683
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781361000409
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781361001700
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "source",
+        "label": "Источник"
+      },
+      "timestamp": 1781361002842
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Тип",
+        "value": "edge"
+      },
+      "timestamp": 1781361002435
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "source",
+        "label": "Источник"
+      },
+      "timestamp": 1781361005893
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "target",
+        "label": "Цель"
+      },
+      "timestamp": 1781361007439
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "source": "b5b847b2-454a-48b3-9da2-76c1705de7d6"
+        }
+      },
+      "timestamp": 1781361007013
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "target": "fde3f6f0-d46f-4125-b575-c9335427f56b"
+        }
+      },
+      "timestamp": 1781361008903
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Направлен"
+      },
+      "timestamp": 1781361009853
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Направлен",
+        "value": true
+      },
+      "timestamp": 1781361009853
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "directed": true
+        }
+      },
+      "timestamp": 1781361009853
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "641c8810-977f-49ce-bd3a-000c90a32b08",
+        "type": "edge",
+        "source": "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+        "target": "fde3f6f0-d46f-4125-b575-c9335427f56b",
+        "directed": true,
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Включает"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781361010893
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "b052198e-4d1f-4fe8-9f0e-0cef54151435"
+      },
+      "timestamp": 1781361014660
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "b052198e-4d1f-4fe8-9f0e-0cef54151435"
+      },
+      "timestamp": 1781361014661
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": null
+      },
+      "timestamp": 1781361016063
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "641c8810-977f-49ce-bd3a-000c90a32b08"
+      },
+      "timestamp": 1781361016781
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "641c8810-977f-49ce-bd3a-000c90a32b08"
+      },
+      "timestamp": 1781361016781
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "b052198e-4d1f-4fe8-9f0e-0cef54151435"
+      },
+      "timestamp": 1781361017541
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "b052198e-4d1f-4fe8-9f0e-0cef54151435"
+      },
+      "timestamp": 1781361017541
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Направлен"
+      },
+      "timestamp": 1781361018718
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Направлен",
+        "value": true
+      },
+      "timestamp": 1781361018718
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "directed": true
+        }
+      },
+      "timestamp": 1781361018719
+    },
+    {
+      "name": "apply-element",
+      "payload": {
+        "id": "b052198e-4d1f-4fe8-9f0e-0cef54151435",
+        "type": "edge",
+        "source": "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+        "target": "fde81e7d-490b-42be-ba85-76a88bc15d32",
+        "directed": true,
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Включает"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781361019777
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781361020707
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781361021292
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781361022225
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Включает"
+      },
+      "timestamp": 1781361021718
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Тип",
+        "value": "edge"
+      },
+      "timestamp": 1781361023011
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "source",
+        "label": "Источник"
+      },
+      "timestamp": 1781361023631
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "source": "b5b847b2-454a-48b3-9da2-76c1705de7d6"
+        }
+      },
+      "timestamp": 1781361024628
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "target",
+        "label": "Цель"
+      },
+      "timestamp": 1781361025495
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "target": "bff0a4bb-844f-4e53-8918-ea0c1c25cd73"
+        }
+      },
+      "timestamp": 1781361026570
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "2a691e29-a4c8-442f-af9f-a4aa8e135eae",
+        "type": "edge",
+        "source": "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+        "target": "bff0a4bb-844f-4e53-8918-ea0c1c25cd73",
+        "directed": false,
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Включает"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781361028389
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781361030789
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781361031467
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": ""
+      },
+      "timestamp": 1781361033733
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Экзамен "
+      },
+      "timestamp": 1781361035809
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Экзамен МН"
+      },
+      "timestamp": 1781361037276
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "ae1ef8b2-5df0-4f39-8e51-d4648a9bf66e",
+        "type": "vertex",
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Экзамен МН"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781361040481
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781361042080
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781361042526
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Включает"
+      },
+      "timestamp": 1781361042824
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781361044852
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "source",
+        "label": "Источник"
+      },
+      "timestamp": 1781361046050
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Тип",
+        "value": "edge"
+      },
+      "timestamp": 1781361045590
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "source": "faaf337e-29c4-48ff-a7be-f777833a858b"
+        }
+      },
+      "timestamp": 1781361048983
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "target",
+        "label": "Цель"
+      },
+      "timestamp": 1781361049517
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "target": "ae1ef8b2-5df0-4f39-8e51-d4648a9bf66e"
+        }
+      },
+      "timestamp": 1781361052567
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Направлен"
+      },
+      "timestamp": 1781361053592
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Направлен",
+        "value": true
+      },
+      "timestamp": 1781361053593
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "directed": true
+        }
+      },
+      "timestamp": 1781361053593
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "a828ded7-ab60-4fe9-85c7-9a54ee80a460",
+        "type": "edge",
+        "source": "faaf337e-29c4-48ff-a7be-f777833a858b",
+        "target": "ae1ef8b2-5df0-4f39-8e51-d4648a9bf66e",
+        "directed": true,
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Включает"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781361054905
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781361106514
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781361106997
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Контрольное Мероприятие"
+      },
+      "timestamp": 1781361111147
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "d350aaf1-ce1e-4b2e-b224-4b1d90084234",
+        "type": "vertex",
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Контрольное Мероприятие"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781361117805
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781361124256
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Тип",
+        "value": "metavertex"
+      },
+      "timestamp": 1781361125670
+    },
+    {
+      "name": "apply-element",
+      "payload": {
+        "id": "d350aaf1-ce1e-4b2e-b224-4b1d90084234",
+        "type": "metavertex",
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Контрольное Мероприятие"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781361127996
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "fde81e7d-490b-42be-ba85-76a88bc15d32"
+          ]
+        }
+      },
+      "timestamp": 1781361139282
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "fde81e7d-490b-42be-ba85-76a88bc15d32",
+            "fde3f6f0-d46f-4125-b575-c9335427f56b"
+          ]
+        }
+      },
+      "timestamp": 1781361143097
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "fde81e7d-490b-42be-ba85-76a88bc15d32",
+            "fde3f6f0-d46f-4125-b575-c9335427f56b",
+            "bff0a4bb-844f-4e53-8918-ea0c1c25cd73"
+          ]
+        }
+      },
+      "timestamp": 1781361145368
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "fde81e7d-490b-42be-ba85-76a88bc15d32",
+            "fde3f6f0-d46f-4125-b575-c9335427f56b",
+            "bff0a4bb-844f-4e53-8918-ea0c1c25cd73",
+            "529dcbdd-cfea-463d-9cdd-41401204828e"
+          ]
+        }
+      },
+      "timestamp": 1781361148679
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "fde81e7d-490b-42be-ba85-76a88bc15d32",
+            "fde3f6f0-d46f-4125-b575-c9335427f56b",
+            "bff0a4bb-844f-4e53-8918-ea0c1c25cd73",
+            "529dcbdd-cfea-463d-9cdd-41401204828e",
+            "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf"
+          ]
+        }
+      },
+      "timestamp": 1781361152140
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": null
+      },
+      "timestamp": 1781361158357
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "d350aaf1-ce1e-4b2e-b224-4b1d90084234"
+      },
+      "timestamp": 1781361159861
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "d350aaf1-ce1e-4b2e-b224-4b1d90084234"
+      },
+      "timestamp": 1781361159861
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "fde81e7d-490b-42be-ba85-76a88bc15d32"
+          ]
+        }
+      },
+      "timestamp": 1781361167734
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "fde81e7d-490b-42be-ba85-76a88bc15d32",
+            "fde3f6f0-d46f-4125-b575-c9335427f56b"
+          ]
+        }
+      },
+      "timestamp": 1781361170181
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "fde81e7d-490b-42be-ba85-76a88bc15d32",
+            "fde3f6f0-d46f-4125-b575-c9335427f56b",
+            "bff0a4bb-844f-4e53-8918-ea0c1c25cd73"
+          ]
+        }
+      },
+      "timestamp": 1781361172508
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "fde81e7d-490b-42be-ba85-76a88bc15d32",
+            "fde3f6f0-d46f-4125-b575-c9335427f56b",
+            "bff0a4bb-844f-4e53-8918-ea0c1c25cd73",
+            "529dcbdd-cfea-463d-9cdd-41401204828e"
+          ]
+        }
+      },
+      "timestamp": 1781361174717
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "fde81e7d-490b-42be-ba85-76a88bc15d32",
+            "fde3f6f0-d46f-4125-b575-c9335427f56b",
+            "bff0a4bb-844f-4e53-8918-ea0c1c25cd73",
+            "529dcbdd-cfea-463d-9cdd-41401204828e",
+            "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf"
+          ]
+        }
+      },
+      "timestamp": 1781361178144
+    },
+    {
+      "name": "apply-element",
+      "payload": {
+        "id": "d350aaf1-ce1e-4b2e-b224-4b1d90084234",
+        "type": "metavertex",
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Контрольное Мероприятие"
+          }
+        },
+        "children": [
+          "fde81e7d-490b-42be-ba85-76a88bc15d32",
+          "fde3f6f0-d46f-4125-b575-c9335427f56b",
+          "bff0a4bb-844f-4e53-8918-ea0c1c25cd73",
+          "529dcbdd-cfea-463d-9cdd-41401204828e",
+          "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf"
+        ],
+        "parents": []
+      },
+      "timestamp": 1781361179456
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": null
+      },
+      "timestamp": 1781361185625
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "d350aaf1-ce1e-4b2e-b224-4b1d90084234"
+      },
+      "timestamp": 1781361190933
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "d350aaf1-ce1e-4b2e-b224-4b1d90084234"
+      },
+      "timestamp": 1781361190934
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "fde81e7d-490b-42be-ba85-76a88bc15d32",
+            "fde3f6f0-d46f-4125-b575-c9335427f56b",
+            "bff0a4bb-844f-4e53-8918-ea0c1c25cd73",
+            "529dcbdd-cfea-463d-9cdd-41401204828e",
+            "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf",
+            "ae1ef8b2-5df0-4f39-8e51-d4648a9bf66e"
+          ]
+        }
+      },
+      "timestamp": 1781361198881
+    },
+    {
+      "name": "apply-element",
+      "payload": {
+        "id": "d350aaf1-ce1e-4b2e-b224-4b1d90084234",
+        "type": "metavertex",
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Контрольное Мероприятие"
+          }
+        },
+        "children": [
+          "fde81e7d-490b-42be-ba85-76a88bc15d32",
+          "fde3f6f0-d46f-4125-b575-c9335427f56b",
+          "bff0a4bb-844f-4e53-8918-ea0c1c25cd73",
+          "529dcbdd-cfea-463d-9cdd-41401204828e",
+          "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf",
+          "ae1ef8b2-5df0-4f39-8e51-d4648a9bf66e"
+        ],
+        "parents": []
+      },
+      "timestamp": 1781361200526
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781361204544
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781361205113
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Дис"
+      },
+      "timestamp": 1781361207552
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Дисциплина"
+      },
+      "timestamp": 1781361209026
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781361210885
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Тип",
+        "value": "metavertex"
+      },
+      "timestamp": 1781361211870
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781361213170
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Название",
+        "value": "Преподаватель"
+      },
+      "timestamp": 1781361216314
+    },
+    {
+      "name": "add-attribute",
+      "payload": {
+        "label": "Преподаватель",
+        "type": "string"
+      },
+      "timestamp": 1781361219406
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "attributes": [
+            {
+              "label": "Преподаватель",
+              "type": "string",
+              "system": false,
+              "value": ""
+            }
+          ]
+        }
+      },
+      "timestamp": 1781361219416
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "e26437f0-3f16-4db8-bd24-ee45b108d07a",
+        "type": "metavertex",
+        "attributes": {
+          "Преподаватель": {
+            "type": "string",
+            "system": false,
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Дисциплина"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781361222244
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "6f536b01-980a-4965-9bc0-2b7918370e76"
+          ]
+        }
+      },
+      "timestamp": 1781361228360
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "6f536b01-980a-4965-9bc0-2b7918370e76",
+            "b5b847b2-454a-48b3-9da2-76c1705de7d6"
+          ]
+        }
+      },
+      "timestamp": 1781361230535
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "6f536b01-980a-4965-9bc0-2b7918370e76",
+            "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+            "faaf337e-29c4-48ff-a7be-f777833a858b"
+          ]
+        }
+      },
+      "timestamp": 1781361232635
+    },
+    {
+      "name": "apply-element",
+      "payload": {
+        "id": "e26437f0-3f16-4db8-bd24-ee45b108d07a",
+        "type": "metavertex",
+        "attributes": {
+          "Преподаватель": {
+            "type": "string",
+            "system": false,
+            "value": ""
+          },
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Дисциплина"
+          }
+        },
+        "children": [
+          "6f536b01-980a-4965-9bc0-2b7918370e76",
+          "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+          "faaf337e-29c4-48ff-a7be-f777833a858b"
+        ],
+        "parents": []
+      },
+      "timestamp": 1781361233914
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": null
+      },
+      "timestamp": 1781361236963
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781361268011
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781361268425
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "1 курс магистратуры "
+      },
+      "timestamp": 1781361276495
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "1 курс магистратуры 2 семестр (весна)"
+      },
+      "timestamp": 1781361282568
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781361283755
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Тип",
+        "value": "metavertex"
+      },
+      "timestamp": 1781361285191
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "d350aaf1-ce1e-4b2e-b224-4b1d90084234"
+          ]
+        }
+      },
+      "timestamp": 1781361293803
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "d350aaf1-ce1e-4b2e-b224-4b1d90084234",
+            "e26437f0-3f16-4db8-bd24-ee45b108d07a"
+          ]
+        }
+      },
+      "timestamp": 1781361297121
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": []
+        }
+      },
+      "timestamp": 1781361305000
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "6f536b01-980a-4965-9bc0-2b7918370e76"
+          ]
+        }
+      },
+      "timestamp": 1781361307408
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "6f536b01-980a-4965-9bc0-2b7918370e76",
+            "b5b847b2-454a-48b3-9da2-76c1705de7d6"
+          ]
+        }
+      },
+      "timestamp": 1781361311354
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "children": [
+            "6f536b01-980a-4965-9bc0-2b7918370e76",
+            "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+            "faaf337e-29c4-48ff-a7be-f777833a858b"
+          ]
+        }
+      },
+      "timestamp": 1781361314283
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "ffbe0183-6db5-4f56-96e1-9e2310a29110",
+        "type": "metavertex",
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "1 курс магистратуры 2 семестр (весна)"
+          }
+        },
+        "children": [
+          "6f536b01-980a-4965-9bc0-2b7918370e76",
+          "b5b847b2-454a-48b3-9da2-76c1705de7d6",
+          "faaf337e-29c4-48ff-a7be-f777833a858b"
+        ],
+        "parents": []
+      },
+      "timestamp": 1781361315616
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": null
+      },
+      "timestamp": 1781361338537
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": "ffbe0183-6db5-4f56-96e1-9e2310a29110"
+      },
+      "timestamp": 1781361361453
+    },
+    {
+      "name": "click-graph-element",
+      "payload": {
+        "id": "ffbe0183-6db5-4f56-96e1-9e2310a29110"
+      },
+      "timestamp": 1781361361453
+    },
+    {
+      "name": "delete-element",
+      "payload": {
+        "id": "ffbe0183-6db5-4f56-96e1-9e2310a29110"
+      },
+      "timestamp": 1781361362477
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781361368129
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781361369232
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Допуск"
+      },
+      "timestamp": 1781361372427
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781361373551
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "source",
+        "label": "Источник"
+      },
+      "timestamp": 1781361374765
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Тип",
+        "value": "edge"
+      },
+      "timestamp": 1781361374351
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "source": "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf"
+        }
+      },
+      "timestamp": 1781361385153
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "target",
+        "label": "Цель"
+      },
+      "timestamp": 1781361385686
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "target": "529dcbdd-cfea-463d-9cdd-41401204828e"
+        }
+      },
+      "timestamp": 1781361387690
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "f69748e8-5f06-4fe9-a626-8879f82f1cf1",
+        "type": "edge",
+        "source": "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf",
+        "target": "529dcbdd-cfea-463d-9cdd-41401204828e",
+        "directed": false,
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Допуск"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781361391656
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Направлен"
+      },
+      "timestamp": 1781361393961
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Направлен",
+        "value": true
+      },
+      "timestamp": 1781361393961
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "directed": true
+        }
+      },
+      "timestamp": 1781361393961
+    },
+    {
+      "name": "apply-element",
+      "payload": {
+        "id": "f69748e8-5f06-4fe9-a626-8879f82f1cf1",
+        "type": "edge",
+        "source": "b918f6c9-ab4e-4c36-85f5-3bd8bfaf9cbf",
+        "target": "529dcbdd-cfea-463d-9cdd-41401204828e",
+        "directed": true,
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Допуск"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781361395022
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": null
+      },
+      "timestamp": 1781361397886
+    },
+    {
+      "name": "select-editor-tab",
+      "payload": {
+        "tabId": "create"
+      },
+      "timestamp": 1781361528410
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Имя"
+      },
+      "timestamp": 1781361529055
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Оканчивает_"
+      },
+      "timestamp": 1781361533175
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Оканчивается_"
+      },
+      "timestamp": 1781361534410
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Имя",
+        "value": "Оканчивается_Контролем"
+      },
+      "timestamp": 1781361536588
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781361537757
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Тип",
+        "value": "metavertex"
+      },
+      "timestamp": 1781361538926
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Название"
+      },
+      "timestamp": 1781361539516
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781361541238
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "label": "Тип"
+      },
+      "timestamp": 1781361561666
+    },
+    {
+      "name": "update-field",
+      "payload": {
+        "label": "Тип",
+        "value": "metaedge"
+      },
+      "timestamp": 1781361562650
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "source",
+        "label": "Источник"
+      },
+      "timestamp": 1781361563459
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "source": "e26437f0-3f16-4db8-bd24-ee45b108d07a"
+        }
+      },
+      "timestamp": 1781361568233
+    },
+    {
+      "name": "focus-field",
+      "payload": {
+        "name": "target",
+        "label": "Цель"
+      },
+      "timestamp": 1781361568902
+    },
+    {
+      "name": "update-form",
+      "payload": {
+        "diff": {
+          "target": "d350aaf1-ce1e-4b2e-b224-4b1d90084234"
+        }
+      },
+      "timestamp": 1781361570462
+    },
+    {
+      "name": "create-element",
+      "payload": {
+        "id": "d09b74c4-b0f4-4f22-85e4-82b300083182",
+        "type": "metaedge",
+        "source": "e26437f0-3f16-4db8-bd24-ee45b108d07a",
+        "target": "d350aaf1-ce1e-4b2e-b224-4b1d90084234",
+        "directed": true,
+        "attributes": {
+          "name": {
+            "type": "string",
+            "system": false,
+            "value": "Оканчивается_Контролем"
+          }
+        },
+        "children": [],
+        "parents": []
+      },
+      "timestamp": 1781361573521
+    },
+    {
+      "name": "select-element",
+      "payload": {
+        "id": null
+      },
+      "timestamp": 1781361576405
+    }
+  ]
+}
